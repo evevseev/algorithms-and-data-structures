@@ -4,6 +4,8 @@
 
 ## Database
 - **Algorithms**
-    - [Heap Sort](/algorithms/heapsort/) (`cpp`)
+    - [Heap](/algorithms/heap/)
+        - Heap Sort (`cpp`)
+        - Last Heap Index (`cpp`)
 - **Data Structures**
     - [Binary Heap](/data-structures/binary-heap/) (`cpp`, `py`)
