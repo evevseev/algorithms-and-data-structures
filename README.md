@@ -6,6 +6,6 @@
 - **Algorithms**
     - [Heap](/algorithms/heap/)
         - Heap Sort (`cpp`)
-        - Last Heap Index (`cpp`)
+        - Last Heap Index (`cpp`, `py`)
 - **Data Structures**
     - [Binary Heap](/data-structures/binary-heap/) (`cpp`, `py`)
