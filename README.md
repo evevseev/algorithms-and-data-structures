@@ -7,5 +7,7 @@
     - [Heap](/algorithms/heap/)
         - Heap Sort (`cpp`)
         - Last Heap Index (`cpp`, `py`)
+    - [Search](/algorithms/search/)
+        - Linear (`py`)
 - **Data Structures**
     - [Binary Heap](/data-structures/binary-heap/) (`cpp`, `py`)
