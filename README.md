@@ -9,5 +9,6 @@
         - Last Heap Index (`cpp`, `py`)
     - [Search](/algorithms/search/)
         - Linear (`py`)
+        - Binary (Lower/Upper bound) (`py`)
 - **Data Structures**
     - [Binary Heap](/data-structures/binary-heap/) (`cpp`, `py`)
