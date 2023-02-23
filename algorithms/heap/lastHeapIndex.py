@@ -1,4 +1,4 @@
-def lastHeapIndex(arr: list) -> int:
+def last_heap_index(arr: list) -> int:
     if not arr:
         return 0
 
