@@ -10,5 +10,7 @@
     - [Search](/algorithms/search/)
         - Linear (`py`)
         - Binary (Lower/Upper bound) (`py`)
+    - [Coding](/algorithms/coding/)
+        - Hamming Code (`cpp`)
 - **Data Structures**
     - [Binary Heap](/data-structures/binary-heap/) (`cpp`, `py`)
