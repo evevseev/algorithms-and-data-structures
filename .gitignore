@@ -1,0 +1,6 @@
+.pytest_cache/
+.vscode/
+
+# Python specific
+__pycache__/
+.pytest_cache/
