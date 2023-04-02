@@ -9,9 +9,10 @@ def lower_bound(arr: list[int], key: int) -> int:
             r = m
     return l
 
+
 def upper_bound(arr: list[int], key: int) -> int:
     l, r = 0, len(arr)
-    
+
     while l < r:
         m = (l + r) // 2
         if arr[m] <= key:
@@ -19,4 +20,3 @@ def upper_bound(arr: list[int], key: int) -> int:
         else:
             r = m
     return l
-    
