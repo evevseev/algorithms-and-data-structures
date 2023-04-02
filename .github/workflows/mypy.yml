@@ -17,4 +17,4 @@ jobs:
           pip install mypy
       - name: Analyzing the code with mypy
         run: |
-          mypy $(git ls-files '*.py')
+          mypy .
