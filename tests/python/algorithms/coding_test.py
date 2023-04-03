@@ -1,6 +1,5 @@
 import pytest
 import random
-import string
 
 from algorithms.coding.hammingCode import (
     hamming_code_encode,
@@ -23,6 +22,7 @@ class TestHammingEncode:
     @pytest.mark.parametrize(
         "string, answer",
         [
+            ('1', '11'),
             ("1010", "1011010"),
             ("1001010110", "11110011010110"),
             ("011", "110011"),
