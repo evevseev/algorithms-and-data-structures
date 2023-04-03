@@ -1,4 +1,4 @@
-from math import log2, ceil
+from math import log2
 
 
 def get_parity_bits_count(msg_len: int) -> int:
@@ -16,6 +16,12 @@ def get_parity_bits_count(msg_len: int) -> int:
 def hamming_code_encode(s: str) -> str:
     if not s:
         return ""
+    
+    if len(s) == 1:
+        if s[0] == '1':
+            return '11'
+        else:
+            return '00'
 
     parity_bits_count = get_parity_bits_count(len(s))
     str_ptr = 0
