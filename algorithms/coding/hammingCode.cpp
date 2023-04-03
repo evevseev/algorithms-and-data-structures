@@ -2,7 +2,23 @@
 #include "cmath"
 #include "sstream"
 
+uint16_t get_parity_bits_count(size_t msg_len) {
+    if (msg_len == 1) {
+        return 1;
+    }
+
+    uint16_t p = static_cast<uint16_t>(log2(msg_len + 1));
+
+    while (ex)
+
+    return p; 
+}
+
 std::string hammingCodeEncode(const std::string &s) {
+    if (s.emplty()) {
+        return ""
+    }
+    
     uint16_t parity_bits_count = std::log2(s.size()) + 1;
 
     size_t str_ptr = 0;
