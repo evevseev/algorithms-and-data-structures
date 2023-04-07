@@ -9,8 +9,6 @@ uint16_t get_parity_bits_count(size_t msg_len) {
 
     uint16_t p = static_cast<uint16_t>(log2(msg_len + 1));
 
-    while (ex)
-
     return p; 
 }
 
